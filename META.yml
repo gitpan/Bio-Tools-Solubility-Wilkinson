@@ -1,0 +1,17 @@
+---
+abstract: 'Calculate the probability of a protein to be soluble using the Wilkinson-Harrison model'
+author:
+  - 'Bruno Vecchi <vecchi.b gmail.com>'
+generated_by: 'Dist::Zilla version 1.093290'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Bio-Tools-Solubility-Wilkinson
+requires:
+  Sub::Exporter: 0
+  Test::Most: 0
+  constant: 0
+resources:
+  repository: http://github.com/brunoV/bio-tools-solubility-wilkinson/
+version: 0.093340
