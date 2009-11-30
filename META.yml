@@ -14,4 +14,4 @@ requires:
   constant: 0
 resources:
   repository: http://github.com/brunoV/bio-tools-solubility-wilkinson/
-version: 0.093340
+version: 0.093341

@@ -7,3 +7,5 @@ README.mkd
 dist.ini
 lib/Bio/Tools/Solubility/Wilkinson.pm
 t/basic.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t
