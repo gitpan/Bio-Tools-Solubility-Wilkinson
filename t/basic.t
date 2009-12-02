@@ -1,4 +1,5 @@
-use Test::Most;
+use Test::More;
+use Test::Exception;
 use strict;
 use warnings;
 
@@ -12,6 +13,11 @@ my $prots = read_sequences('DATA');
 cmp_ok
     abs(solubility($_->{seq}) - $_->{solubility}),
     '<', 0.02, "Solubility of $_->{name}" for @$prots;
+
+cmp_ok
+    abs(solubility("E" x 15) -
+        solubility("E" x 15 . " " x 100 . "\n" x 100)), "<", 0.02,
+    "Whitespace doesn't affect the result";
 
 done_testing();
 

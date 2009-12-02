@@ -9,9 +9,11 @@ meta-spec:
   version: 1.4
 name: Bio-Tools-Solubility-Wilkinson
 requires:
+  Carp: 0
   Sub::Exporter: 0
-  Test::Most: 0
-  constant: 0
+  Test::Exception: 0
+  Test::More: 0.88
+  constant: 1.03
 resources:
   repository: http://github.com/brunoV/bio-tools-solubility-wilkinson/
-version: 0.093341
+version: 0.093360
